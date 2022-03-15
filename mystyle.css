@@ -11,27 +11,28 @@ html {
 .cat {
     position: absolute;
     height: 170px;
-    width: 192.1px;
+    width: 192px;
   }
   
   .ear {
     position: absolute;
-    top: -30%;
-    height: 60%;
-    width: 25%;
-    background: #fff;
+    top: -25%;
+    height: 50%;
+    width: 35%;
+    background: pink;
+    border:15px solid white;
   }
   
   .ear--left {
-    left: 7%;
+    left: -7%;
     border-radius: 70% 30% 0% 0%/100% 100% 0% 0%;
-    transform: rotate(-15deg);
+    transform: rotate(-35deg);
   }
   
   .ear--right {
-    right: 7%;
+    right: -7%;
     border-radius: 30% 70% 0% 0%/100% 100% 0% 0%;
-    transform: rotate(15deg);
+    transform: rotate(35deg);
   }
 
   .face {
@@ -40,6 +41,7 @@ html {
     width: 100%;
     background: #161616;
     border-radius: 50%;
+    border: dotted white;
   }
   
   .eye {
@@ -67,16 +69,16 @@ html {
     0% {
       height: 0;
     }
-    90% {
+    50% {
       height: 0;
     }
-    92.5% {
-      height: 100%;
+    50% {
+      height: 50%;
     }
     95% {
       height: 0;
     }
-    97.5% {
+    97% {
       height: 100%;
     }
     100% {
@@ -88,14 +90,14 @@ html {
     left: 5%;
   }
   .eye--left::before {
-    right: -5%;
+    right: auto;
   }
   
   .eye--right {
     right: 5%;
   }
   .eye--right::before {
-    left: -5%;
+    left: auto;
   }
   
   .eye-pupil {
